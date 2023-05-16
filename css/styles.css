@@ -798,13 +798,11 @@ label {
     padding-left: 38px;
     border: 1px solid #2e2f4266;
     border-radius: 4px;
-    outline: transparent;
-    outline-offset: -1px;
     transition: var(--animation-speed);
 }
 
 .form-field:focus {
-    outline: 1px solid var(--acent-color);
+    border: 1px solid var(--acent-color);
 }
 
 
@@ -834,12 +832,11 @@ label {
     color: #2e2f4266;
     border: 1px solid #2e2f4266;
     border-radius: 4px;
-    outline: transparent;
     transition: var(--animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-comment:focus {
-    outline: 1px solid var(--active-color);
+    border: 1px solid var(--acent-color);
 }
 
 .form-agreement {
@@ -908,17 +905,15 @@ label {
     line-height: 2;
     letter-spacing: 0.04em;
     border: 1px solid var(--primary-white-color);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: transparent;
-    outline-offset: -1px;
     color: var(--primary-white-color);
     background-color: var(--dark-bg-color);
     transition: var(--animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-form-input:focus {
-    outline: 1px solid var(--acent-color);
+    border: 1px solid var(--acent-color);
 }
 
 .subscribe-form-input::placeholder {
