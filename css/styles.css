@@ -10,12 +10,11 @@
     --acent-color: #4D5AE5;
     --active-color: #404BBF;
     --icon-grey-color: #AFB1B8;
-    --modal
     /* додані через ФІГМУ */
-    --color-green: #31d0aa;
     --color-light-slate: #8e8f99;
     --color-cornflower: #e7e9fc;
     --color-dairy: #fcfcfc;
+    --color-green: #31d0aa;
 
     /* fonts */
     --primary-font: Roboto, sans-serif;
